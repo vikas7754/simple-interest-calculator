@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  background: rgb(254, 254, 254);
+  position: relative;
+}
+.main-container {
+  position: relative;
+}
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background: rgb(101, 64, 109);
+}
+.date {
+  display: flex;
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 999;
+  background: green;
+}
+.add a {
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+}
+.msg span {
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+.list a {
+  text-decoration: none;
+  font-size: 2.8vw;
+}
+.detail {
+  color: rgba(0, 0, 0, 0.527);
+  font-size: 2.3vw;
+}
+.i_name {
+  color: rgb(38, 0, 255);
+}
+.i_amount {
+  color: green;
+}
+.i_date {
+  color: rgb(104, 0, 80);
+}
+.i_time{
+    color: #0031a4;
+}
+
+.list-card {
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.list {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.131);
+  transition: all 0.5s;
+}
+.list:hover {
+  scale: 1.02;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.c_list-card {
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.c_list {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: rgba(255, 0, 0, 0.363);
+  transition: all 0.5s;
+}
+.c_list:hover {
+  scale: 1.02;
+  background: rgba(255, 0, 0, 0.639);
+}
+.c_list a {
+  text-decoration: none;
+  font-size: 2.8vw;
+}
+del{
+  color: red;
+}
+.interest_x{
+    color: #ff00c8;
+}
